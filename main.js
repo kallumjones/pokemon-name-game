@@ -151,7 +151,7 @@ const pokemon = ['bulbasaur',
 'dragonite',
 'mewtwo',
 'mew']
-let caughtPokemon = [];
+let caughtPokemon;
 
 let score;
 let time;
@@ -279,7 +279,7 @@ const firstLetterCap = (string) => {
 const checkGameStatus = () => {
     if(!isPlayingGame && timeSeconds === 0){
         let upperCaughtPokemon = caughtPokemon.map(pokemon => firstLetterCap(pokemon))
-        message.innerHTML = `Game Over, You Caught: ${score} Pokemon <br> ${upperCaughtPokemon.join(' <br>')}`;
+        message.innerHTML = `Game Over, You Caught: ${score} Pokémon <br> ${upperCaughtPokemon.join(' <br>')}`;
         clearInterval(interval);
         wordInput.setAttribute('disabled',true);
         startButton.disabled = false;
