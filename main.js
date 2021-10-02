@@ -177,7 +177,7 @@ const resetGame = () => {
     score = 0;
     scoreDisplay.innerText = score;
     //reset time
-    timeSeconds = 10;
+    timeSeconds = 300;
     //result word input
     wordInput.disabled = false;
     wordInput.value = '';
