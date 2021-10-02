@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Name Game</title>
+</head>
+<body>
+    <h1>How many orginal Pokemon can you catch?</h1>
+
+    <div>
+        <div>
+            <div>
+                <label for="input-box">Catch Pokemon Here</label>
+                <input id="input-box" name="input-box" type="text" placeholder="Type here...">
+
+                <button type="button" id="start-button">Start</button>
+
+                <h3 id="message"></h3>
+
+            </div>
+            <div class="display">
+                <h3 class="score">Score: </h3>
+                <span class="score" id="score">0</span>
+            </div>
+            <div class="displays">
+                <h3 class="score">Time:</h3>
+                <span class="score" id="time">5:00</span>
+            </div>
+        </div>
+
+        <div>
+            <h3>Instructions</h3>
+            <p>Type as many original pokemon that you can within the alloted
+                time and see how many you can catch! 
+            </p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>

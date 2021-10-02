@@ -1,0 +1,14 @@
+.displays {
+    /* background-color: blue; */
+    display: inline-block
+
+}
+
+
+.score {
+    display: inline-block
+}
+
+.time {
+    display: inline-block
+}
